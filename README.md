@@ -1,1 +1,1 @@
-move the file betty from /tmp/ to /tmp/my_first_directory
+Create a magic file school.mgc

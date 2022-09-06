@@ -1,1 +1,3 @@
-Create a magic file school.mgc
+tmp/alx-system_engineering-devops
+
+

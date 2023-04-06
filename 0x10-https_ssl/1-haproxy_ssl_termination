@@ -65,5 +65,9 @@ backend le-certbot-backend
 
 backend www-backend
         balance roundrobin
-        server 496-web-01 54.210.163.87:80
-        server 496-web-02 54.160.87.124:80
+        server 
+
+backend www-backend
+        balance roundrobin
+        server 110424-web-01 54.210.163.87:80 check
+        server 110424-web-02 54.160.87.124:80 check

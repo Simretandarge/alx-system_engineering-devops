@@ -9,12 +9,12 @@ from sys import argv
 import json
 
 if __name__ == "__main__":
-    response = get('https://jsonplaceholder.typicode.com/todos/')
+    response = get('https://jsonplaceholder.typicode.com/todos/1')
     data = response.json()
 
     row = []
-    response2 = get('https://jsonplaceholder.typicode.com/users')
-    data2 = response2.json()
+    response2 = get('https://jsonplaceholder.typicode.com/todos/1)
+    data2 = response.json()
 
     for i in data2:
         if i['id'] == int(argv[1]):
